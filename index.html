@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status_bar">
+      <div>10:43</div>
+      <div>
+        <i class="fa-solid fa-signal fa-xs"></i>
+        <i class="fa-solid fa-wifi fa-xs"></i>
+        <i class="fa-solid fa-battery-full fa-xs"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Talk</h1>
+      <p class="welcome-header__text">
+        If you have a kokoa Account, log in with your Email or Phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or Phone number." />
+      <input name="password" type="password" placeholder="Password" />
+      <div class="login-form__btn">
+        <input class="login-form__submit" type="submit" value="Log In" />
+        <input class="login-form__butten" type="button" value="Sign In" />
+      </div>
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+      <span>핸드폰에서만 잘 보임</span>
+    </div>
+    <!--<div class="nav_bar"></div>-->
+    <script
+      src="https://kit.fontawesome.com/2cb7ce3cc7.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

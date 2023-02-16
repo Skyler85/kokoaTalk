@@ -1,0 +1,20 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border: var(--main-border);
+    padding: var(--horizon-space);
+}
+.header__title {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--sub-color);
+}
+.header__icon .fa-solid {
+    margin-left: 15px;
+    color: var(--sub-color);
+}
+
+.friends_screen {
+    padding: var(--horizon-space);
+}

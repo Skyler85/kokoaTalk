@@ -1,0 +1,27 @@
+@import url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff");
+
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/no-mobile.css";
+@import "components/nav-bar.css";
+@import "components/user-components.css";
+
+
+/* Screen */
+@import "screen/login.css";
+@import "screen/friends.css";
+
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: var(--main-color);
+    font-family: 'NanumSquareNeo-Variable';    
+    position: relative;
+}

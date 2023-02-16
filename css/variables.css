@@ -1,0 +1,18 @@
+:root {
+  --yellow: #fae100;
+  --main-color: #FFD2D8;
+  --sub-color: #304157;
+  --sub-alpha: rgba(48, 65, 87,0.8);
+  --side-color: #e3e3e3;
+  --font-main : #2e363e;  
+  --shadow: rgba(0,0,0,0.2)
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --horizon-space: 25px;
+}
+
+@font-face {
+  font-family: 'NanumSquareNeo-Variable';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

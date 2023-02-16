@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>kokoa Talk</title>
+  </head>
+  <body>
+    <!-- Status Bar : Start -->
+    <div class="status_bar">
+      <div>10:43</div>
+      <div>
+        <i class="fa-solid fa-signal fa-xs"></i>
+        <i class="fa-solid fa-wifi fa-xs"></i>
+        <i class="fa-solid fa-battery-full fa-xs"></i>
+      </div>
+    </div>
+    <!-- Status Bar : End -->
+
+    <!-- Header -->
+    <header>
+      <div class="header__title">Friends</div>
+      <div class="header__icon">
+        <i class="fa-solid fa-search fa-lg"></i>
+        <i class="fa-solid fa-user-plus fa-lg"></i>
+        <i class="fa-solid fa-music fa-lg"></i>
+        <i class="fa-solid fa-gear fa-lg"></i>
+      </div>
+    </header>
+
+    <!-- Contents -->
+    <main class="friends_screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://avatars.githubusercontent.com/u/123640595?v=4"
+            alt="skyler"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">Skyler</div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends_screen__channel">
+        <div class="channel__title"></div>
+        <div class="channel__list">
+          <div class="channel__list--cover"></div>
+          <div class="channel__list--name"></div>
+        </div>
+      </div>
+    </main>
+    <!-- Navigation Bar -->
+    <div class="nav-bar__wrap">
+      <ul class="nav-bar">
+        <li class="nav-bar__plus">
+          <a href="#">
+            <i class="fa-solid fa-plus fa-xl"></i>
+          </a>
+          <ul class="nav-bar__popup">
+            <li>
+              <a href="#"><i class="fa-solid fa-sort-down fa-xl"></i></a>
+            </li>
+            <li class="nav-bar__friend">
+              <a href="friends.html"><i class="fa-solid fa-user fa-xl"></i></a>
+            </li>
+            <li class="nav-bar__chat">
+              <a href="chats.html"
+                ><i class="fa-solid fa-comments fa-xl"></i
+              ></a>
+            </li>
+            <li class="nav-bar__find">
+              <a href="find.html"
+                ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+              ></a>
+            </li>
+            <li class="nav-bar__more">
+              <a href="more.html"><i class="fa-solid fa-ellipsis fa-xl"></i></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <div id="no-mobile">
+      <span>핸드폰에서만 잘 보임</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/2cb7ce3cc7.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
